@@ -1,6 +1,6 @@
 import React from 'react';
 import "./home.css";
-import Me from "../../assets/smalljasonprofpic.png";
+import Me from "../../assets/jasonavatar.png";
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 
@@ -15,7 +15,7 @@ const Home = () => {
 
         <HeaderSocials></HeaderSocials>
 
-        <a href="#contact" className="btn"> Hire Me</a>
+        {/* <a href="#contact" className="btn"> Hire Me</a> */}
 
         <ScrollDown></ScrollDown>
 
