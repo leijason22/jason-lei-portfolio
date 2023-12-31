@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import About from './components/about/About';
-import Contact from './components/contact/Contact';
+import Contact from './components/contact/Contacts';
 import Experience from './components/experience/Experience';
 import Home from './components/home/Home';
 import Projects from './components/projects/Projects';
