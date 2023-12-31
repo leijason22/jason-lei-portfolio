@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    background: url(../../assets/pixelsky.jpg) center;
   }
   
   .section_title {
