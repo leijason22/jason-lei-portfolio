@@ -3,7 +3,11 @@ import "./resume.css";
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <section className="resume container section" id='resume'>
+      <h2 className="section_title">Resume - (In case you missed it above!)</h2>
+      <a href="" className="btn">Download Resume</a>
+
+    </section>
   )
 }
 
