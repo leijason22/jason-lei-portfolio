@@ -13,8 +13,8 @@ const About = () => {
 
         <div className="about_data grid">
           <div className="about_info">
-            <p className="about_description">Hi! My name is Jason Lei. I'm currently pursuing a Bachelor of Sciences in Computer Science. 
-            I am greatly interested and passionate about full stack web development and am looking for internship and co-op roles. 
+            <p className="about_description">Hi! I'm Jason. Currently, I am pursuing a Bachelor of Science in Computer Science at Rutgers University—New Brunswick. 
+            I am greatly interested and passionate about software engineering and full stack web development, and am currently looking for internship and co-op roles. 
             Looking forward to connect! </p>
             <a href="" className="btn">Download Resume</a>
           </div>
@@ -26,7 +26,15 @@ const About = () => {
 
         <div className="about_data grid">
           <div className="about_info">
-            <p className="about_description">"Insert Text Here"</p>
+            <p className="about_description">
+
+UI/UX <br />
+Designing Web/App Interfaces <br />
+Web Development <br />
+Web App Development <br />
+App Development <br />
+Building Android/IOS apps <br />
+</p>
           </div>
         </div>
       </div>

@@ -1,68 +1,93 @@
 import React from 'react';
 import "./experience.css";
-import Image3 from "../../assets/jasonexperience.png";
+import Image1 from "../../assets/jasonexperience.png";
+
+const data = [
+  {
+    id: 1,
+    // image: Image1,
+    title: "CVS Pharmacy",
+    description: 
+      "Job Title 1, Company Name 1, Location 1, Duration 1, Description of responsibilities and achivements for Job 1."
+  },
+  {
+    id: 2,
+    // image: Image1,
+    title: "Walgreens",
+    description: 
+      "Blah blah blah."
+  },
+  {
+    id: 3,
+    // image: Image1,
+    title: "Rutgers University",
+    description: 
+      "Blah blah blah."
+  },
+  ];
 
 const Experience = () => {
   return (
-  //   <section className="experience container section" id='experience'>
-  //   <h2 className="section_title">Experience</h2>
+    <section className="experience container section" id = "experience">
+      <h2 className="section_title">Experience</h2>
+{/* 
+      <div className="experience_container grid">
+        {data.map(({id, image, title, description}) => {
+          return (
+            <div className="experience_card" key={id}>
+              <img src={image} alt="" className="experience_img" />
+              <h3 className="experience_title">{title}</h3>
+              <p className="experience_description">{description}</p>
+            </div>
+          );
+        })}
+      </div> */}
 
-  //   <div className="experience_container grid">
-  //   <img src={Image3} alt="" className="experience_img" />
-  //     <div className="experience_data grid">
-  //       <div className="experience_info">
-  //         <p className="experience_description">Some of my work experience!</p>
-  //       </div>
-  //     </div>
-  //   </div>
-  // </section>
+      <div className="experience_container grid">
+        <div className="experience_card">
+          <h3 className="experience_company"> CVS Pharmacy </h3>
+          <h4 className="experience_position"> Pharmacy Technician </h4>
+          <h5 className="experience_location"> Leonia, NJ</h5>
+          <h5 className="experience_duration"> May 2023 - Present</h5>
+          <ul className="experience_description">
+            <li>f</li>
+            <li>f</li>
+            <li>f</li>
+            <li>f</li>
+          </ul>
+          <br />
+          <hr />
+          <br />
 
-  <section className="experience container section" id='experience'>
-  <h2 className="section_title">Experience</h2>
+          <h3 className="experience_company"> Walgreens </h3>
+          <h4 className="experience_position"> Pharmacy Technician </h4>
+          <h5 className="experience_location"> Fort Lee, NJ</h5>
+          <h5 className="experience_duration"> May 2021 - Feb 2022</h5>
+          <ul className="experience_description">
+            <li>f</li>
+            <li>f</li>
+            <li>f</li>
+            <li>f</li>
+          </ul>
+          <br />
+          <hr />
+          <br />
 
-  <div className="experience_container grid">
-    <img src={Image3} alt="" className="experience_img" />
+          <h3 className="experience_company"> Rutgers University </h3>
+          <h4 className="experience_position"> Laboratory Assistant </h4>
+          <h5 className="experience_location"> Piscataway, NJ</h5>
+          <h5 className="experience_duration"> Aug 2021 - May 2022</h5>
+          <ul className="experience_description">
+            <li>f</li>
+            <li>f</li>
+            <li>f</li>
+            <li>f</li>
+          </ul>
 
-    <div className="experience_data grid">
-      <div className="experience_info">
-        <p className="experience_description">Some of my work experience!</p>
+        </div>
       </div>
-    </div>
-  </div>
 
-  {/* New grid for multiple experience items  */}
-  <div className="experience_details grid">
-    {/* Experience item 1 */}
-    <div className="experience_item">
-      <h3>Job Title 1</h3>
-      <p>Company Name 1</p>
-      <p>Location 1</p>
-      <p>Duration 1</p>
-      <p>Description of responsibilities and achievements for Job 1.</p>
-    </div>
-
-    {/* Experience item 2 */}
-    <div className="experience_item">
-      <h3>Job Title 2</h3>
-      <p>Company Name 2</p>
-      <p>Location 2</p>
-      <p>Duration 2</p>
-      <p>Description of responsibilities and achievements for Job 2.</p>
-    </div>
-
-     {/* Experience item 3 */}
-     <div className="experience_item">
-      <h3>Job Title 3</h3>
-      <p>Company Name 3</p>
-      <p>Location 3</p>
-      <p>Duration 3</p>
-      <p>Description of responsibilities and achievements for Job 3.</p>
-    </div>
-
-  </div>
-</section>
-
-
+    </section>
   )
 }
 

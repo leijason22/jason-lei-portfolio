@@ -1,58 +1,50 @@
-.experience_container {
-    grid-template-columns: 3fr 9fr;
+.experience_container{
+    grid-template-columns: repeat(1,1fr);
     column-gap: 1.875rem;
-    margin-top: 1.5rem;
 }
 
-.section_title {
-    margin-top: -2rem;
-    position: relative;
-}
-
-.experience_data {
+.experience_card{
+    text-align: center;
     padding: 1.875rem;
-    background-color: var(--container-color);
-    box-shadow: var(--shadow);
     border-radius: var(--border-radius);
-    align-items: flex-start;
-    position: relative;
+    background-color: var(--container-color);
+    /* transition: all 0.3s ease-in-out; */
 }
 
-.experience_data::before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 15px solid var(--container-color);
-    position: absolute;
-    left: -0.93rem;
-    top: 20%;
+/* .experience_card:hover{
+    transform: translateY(-10px);
+} */
+
+.experience_card:nth-child(1){
+    /* background-color: rgb(108,108,229);
+    box-shadow: 0px 5px 20px 0px rgb(108, 108, 229 / 50%);
+    margin-top: 1rem; */
+    background-color: #fff;
+    box-shadow: 0px 5px 20px 0px rgb(108, 108, 229 / 50%);
+    margin-top: 1rem;
+}
+
+.experience_card h3 {
+    font-size: 1.5rem;
+    font-weight: var(--font-bold);
+    text-align: start;
+}
+
+.experience_card h4 {
+    font-size: 1.25rem;
+    font-weight: var(--font-semibold);
+    text-align: start;
+}
+
+.experience_card h5 {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: start;
 }
 
 .experience_description {
-    margin-bottom: 1rem;
-    text-align: justify;
-}
-
-.experience_img {
-    border-radius: 80%;
-}
-
-.experience_container2 {
-    grid-template-columns: 3fr 9fr;
-    column-gap: 1.875rem;
-    margin-top: 1.5rem;
-}
-
-.experience_details.grid {
-    padding: 1.875rem;
-    background-color: var(--container-color);
-    box-shadow: var(--shadow);
-    border-radius: var(--border-radius);
-    align-items: flex-start;
-    position: relative;
-    margin-top: 3rem;
-}
-
+    list-style-type: disc;
+    padding-left: 30px; 
+    text-align: start;
+  }
 

@@ -37,4 +37,6 @@
     writing-mode: vertical-rl;
 }
 
-
+.aside .nav_logo img{
+    border-radius: 10%;
+}

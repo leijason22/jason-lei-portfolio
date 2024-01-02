@@ -1,10 +1,10 @@
-.home {
+.home.container {
     position: relative;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../../assets/pixelsky.jpg) center;
+    background: url(../../assets/betterpixelsky.png) center;
 }
 
 .intro {
@@ -16,6 +16,12 @@
     margin-bottom: 1.25rem;
     border-radius: 80%;
     width: 70%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.home_img.flipped {
+    transform: scaleX(-1);
 }
 
 .home_name {
