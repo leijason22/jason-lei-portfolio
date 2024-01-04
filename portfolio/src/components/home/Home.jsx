@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./home.css";
 import Me from "../../assets/jasonavatar.png";
-import FlippedMe from "../../assets/smalljasonprofpic.png";
+import FlippedMe from "../../assets/jasonnobackground.png";
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 

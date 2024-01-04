@@ -50,10 +50,9 @@ const Experience = () => {
           <h5 className="experience_location"> Leonia, NJ</h5>
           <h5 className="experience_duration"> May 2023 - Present</h5>
           <ul className="experience_description">
-            <li>f</li>
-            <li>f</li>
-            <li>f</li>
-            <li>f</li>
+            <li>Assisted in overseeing patient care and medications in a fast-paced worked environment.</li>
+            <li>Accurately filled and processed an average of 100+ prescriptions per shift.</li>
+            <li>Performed inventory management tasks, including verification of medication in stock by cycle counts and restocking medications in out-of-stock situations.</li>
           </ul>
           <br />
           <hr />
@@ -64,10 +63,9 @@ const Experience = () => {
           <h5 className="experience_location"> Fort Lee, NJ</h5>
           <h5 className="experience_duration"> May 2021 - Feb 2022</h5>
           <ul className="experience_description">
-            <li>f</li>
-            <li>f</li>
-            <li>f</li>
-            <li>f</li>
+            <li>Tended to patient needs, questions, and concerns in person and over the phone; Communicated directly with doctors' offices and insurance agencies via telephone to discuss patient needs.</li>
+            <li>Handled inventory management tasks including cycle counts to confirm medications were in stock, removal of out-of-date medications, and assisted in the ordering of medications to prevent out-of-stock situations.</li>
+            <li>Thoroughly and accurately filled and processed 100+ prescriptions each shift.</li>
           </ul>
           <br />
           <hr />
@@ -78,10 +76,9 @@ const Experience = () => {
           <h5 className="experience_location"> Piscataway, NJ</h5>
           <h5 className="experience_duration"> Aug 2021 - May 2022</h5>
           <ul className="experience_description">
-            <li>f</li>
-            <li>f</li>
-            <li>f</li>
-            <li>f</li>
+            <li>Developed and set up lab procedures and demonstrations for professors to incorporate into their lectures.</li>
+            <li>Maintained lab inventory, restocking materials and reagents necessary for lecture or class demonstrations.</li>
+            <li>Provided technical support to faculty in using in-class technology, including computers and projectors.</li>
           </ul>
 
         </div>

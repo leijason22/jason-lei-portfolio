@@ -44,13 +44,20 @@
 }
 
 .projects_img{
+    /* margin-bottom: 1.5rem; */
+    height: 500px; 
     margin-bottom: 1.5rem;
+    object-fit: cover; 
 }
 
 .projects_title{
     font-size: var(--h1-font-size);
     margin-bottom: 1rem;
     /* color: #fff; */
+}
+
+.projects_card:nth-child(3) .projects_img {
+    transform: scale(0.8);
 }
 
 /* .projects_description{
