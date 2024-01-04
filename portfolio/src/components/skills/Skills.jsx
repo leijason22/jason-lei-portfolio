@@ -11,6 +11,8 @@ import Image8 from "../../assets/nodejslogo.png";
 import Image9 from "../../assets/flasklogo.png";
 import Image10 from "../../assets/gitlogo.png";
 import Image11 from "../../assets/gcplogo.png";
+import Image12 from "../../assets/tailwindcsslogo.png";
+
 
 const languages = [
   {
@@ -60,6 +62,11 @@ const languages = [
       id: 3,
       image: Image9,
       title: "Flask",
+    },
+    {
+      id: 4,
+      image: Image12,
+      title: "TailwindCSS",
     },
     ];
 
