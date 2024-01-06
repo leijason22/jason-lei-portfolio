@@ -5,6 +5,7 @@ import Logo from "../../assets/jasonlogo2.png";
 
 const Sidebar = () => {
   return (
+    <>
     <aside className = 'aside'>
         <a href="#home" className="nav_logo">
             <img src={Logo} alt="" />
@@ -51,7 +52,7 @@ const Sidebar = () => {
                         </a>
                     </li>
                     <li className="nav_item">
-                        <a href="#resume" className="nav_link">
+                        <a href="https://drive.google.com/file/d/13EBkeJtea3ELGphwTErMg_cPazZV1fdk/view?usp=sharing" target="_blank" className="nav_link">
                             <i className="icon-book-open"></i>
 
                         </a>
@@ -69,6 +70,14 @@ const Sidebar = () => {
         </div>
 
     </aside>
+
+<div className="nav_toggle">
+    <i className="icon-menu"></i>
+</div>
+
+    </>
+
+
   )
 }
 

@@ -24,6 +24,10 @@
     transform: scaleX(-1);
 }
 
+/* .home_img:hover{
+    transform: scale(1.1);
+} */
+
 .home_name {
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);

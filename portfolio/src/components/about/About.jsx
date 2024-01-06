@@ -38,7 +38,7 @@ const About = () => {
             <p className="about_description">
 
 <h4>A little about myself...</h4>
-Outside of coding and experimenting, I love to be active and enjoy a number of different sports ranging from basketball and running, to skiing (which I will gladly take any advice for if you have any for me)
+Outside of coding, I love to be active and enjoy a number of different sports ranging from basketball and running, to skiing (which I will gladly take any advice for if you have any for me)
 and playing soccer. <br /><br />
 <strong>FUN FACT:</strong> I LOVE collecting these little figures called Smiskis (they are the key to my heart)!
 

@@ -13,8 +13,8 @@ const Resume = () => {
   };
   return (
     <section className="resume container section" id='resume'>
-      <h2 className="section_title">Resume - (In case you missed it above!)</h2>
-      <button onClick={handleDownload} className="btn">Download Resume</button>
+      {/* <h2 className="section_title">Resume (In case you missed it above!)</h2> */}
+      {/* <button onClick={handleDownload} className="btn">Download Resume</button> */}
     </section>
   )
 }
