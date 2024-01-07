@@ -23,12 +23,8 @@
     margin-top: 1rem;
 }
 
-.projects_card:nth-child(2) {
-    margin-top: 2.5rem;
-}
-
-.projects_card:nth-child(3) {
-    margin-top: 2.5rem;
+.projects_card:nth-child(1) {
+    margin-bottom: 1rem;
 }
 
 .projects_img {
@@ -46,3 +42,18 @@
 .projects_card:nth-child(3) .projects_img {
     transform: scale(0.8);
 }
+
+@media screen and (max-width: 1024px) {
+    .projects_container {
+        grid-template-columns: 600px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .projects_container {
+        grid-template-columns: 350px;
+    }
+
+  }

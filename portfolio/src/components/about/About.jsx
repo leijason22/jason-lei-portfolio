@@ -7,8 +7,8 @@ import ResumePDF from "../../assets/jasonresume.pdf"
 const About = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = ResumePDF; // Provide the actual file URL or data
-    link.download = 'Jason_Resume.pdf'; // Set the desired file name
+    link.href = ResumePDF;
+    link.download = 'Jason_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

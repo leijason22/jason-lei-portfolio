@@ -41,3 +41,41 @@
     border-radius: 80%;
 }
 
+@media screen and (max-width: 1024px) {
+    .contact_container {
+        grid-template-columns: 720px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+
+    .contact_data::before {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #fff;
+        left: 49%;
+        top: -20px;
+    }
+
+    .contact_img {
+        justify-self: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .contact_container {
+        grid-template-columns: 350px;
+    }
+
+    .contact_container2 {
+        grid-template-columns: 350px;
+    }
+
+    .contact_data::before {
+        left: 47%;
+    }
+
+    .contact_data {
+        grid-template-columns: 1fr;
+        row-gap: 1.875rem;
+    }
+  }

@@ -24,9 +24,13 @@
     transform: scaleX(-1);
 }
 
-/* .home_img:hover{
+.home_img:hover {
     transform: scale(1.1);
-} */
+}
+
+.home_img.flipped:hover {
+    transform: scaleX(-1) scale(1.1);
+}
 
 .home_name {
     font-size: var(--h1-font-size);
@@ -114,3 +118,9 @@
     transform: translateX(-50%);
     animation: ani-mouse 2s linear infinite;
 }
+
+@media screen and (max-width: 1024px) {
+    .home_social-link {
+        font-size: 1.125rem;
+    }
+  }

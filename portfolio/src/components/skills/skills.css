@@ -103,3 +103,24 @@
     margin-top: 2rem;
     text-indent: 1rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .skills_container,
+    .skills_container2,
+    .skills_container3 {
+    display: grid;
+    row-gap: 1.875rem;
+    grid-template-columns: repeat(3, 1fr);
+    }
+
+  }
+
+  @media screen and (max-width: 576px) {
+    .skills_container,
+    .skills_container2,
+    .skills_container3 {
+    display: grid;
+    row-gap: 1.875rem;
+    grid-template-columns: repeat(2, 1fr);
+    }
+  }

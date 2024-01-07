@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./sidebar.css";
 import Logo from "../../assets/jasonlogo2.png";
 
-
 const Sidebar = () => {
+    const [toggle, showMenu] = useState(false);
+
   return (
     <>
-    <aside className = 'aside'>
+    <aside className = {toggle ? "aside show-menu" : "aside"}>
         <a href="#home" className="nav_logo">
             <img src={Logo} alt="" />
         
@@ -71,13 +72,12 @@ const Sidebar = () => {
 
     </aside>
 
-<div className="nav_toggle">
-    <i className="icon-menu"></i>
-</div>
+    <div className={toggle ? "nav_toggle nav_toggle-open" : 
+    "nav_toggle"} onClick={() => showMenu(!toggle)}>
+        <i className="icon-menu"></i>
+    </div>
 
     </>
-
-
   )
 }
 
